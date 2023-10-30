@@ -1,0 +1,1 @@
+docker exec -u root mojMongoDB mongoexport --db=or1lab --collection=iphones --username=root --password=root --authenticationDatabase=admin --type=json > novi_json.json

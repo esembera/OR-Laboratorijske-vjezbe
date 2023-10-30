@@ -1,0 +1,1 @@
+docker exec -u root mojMongoDB mongoexport --db=or1lab --collection=iphones --username=root --password=root --authenticationDatabase=admin --type=csv --fields=Producer.name,Producer.country,Model,Year,"Launch price","Base storage","Screen size",RAM,"Launch OS",Chipset,Weight > novi_csv.csv
