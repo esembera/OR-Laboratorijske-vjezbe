@@ -32,8 +32,8 @@ Modeli Apple iPhonea
 
 ## Atributi
 
-Proizvođač, model, godina izlaska, operativni sustav na dan izlaska, cijena na dan izlaska, bazna količina memorije, RAM, Veličina baterije, Chipset, Masa.
-Proizvođač se sastoji od imena i države.
+Producer, Model, Year, Launch price, Base storage, Screen size, RAM, Battery, Launch OS, Chipset, Weight.
+Producer je child od iphonea, te se sastoji od atributa name i country.
 
 ## Vremenski period koji pokriva skup podataka
 
