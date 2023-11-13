@@ -1,0 +1,1623 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "integer"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "Producer": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "country"]
+            }
+          ]
+        },
+        "Model": {
+          "type": "string"
+        },
+        "Year": {
+          "type": "integer"
+        },
+        "Launch price": {
+          "type": "integer"
+        },
+        "Base storage": {
+          "type": "string"
+        },
+        "Screen size": {
+          "type": "number"
+        },
+        "RAM": {
+          "type": "string"
+        },
+        "Battery": {
+          "type": "string"
+        },
+        "Launch OS": {
+          "type": "string"
+        },
+        "Chipset": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Producer",
+        "Model",
+        "Year",
+        "Launch price",
+        "Base storage",
+        "Screen size",
+        "RAM",
+        "Battery",
+        "Launch OS",
+        "Chipset",
+        "Weight"
+      ]
+    }
+  ]
+}

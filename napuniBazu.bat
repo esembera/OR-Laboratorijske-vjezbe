@@ -1,0 +1,1 @@
+docker exec -u root mojMongoDB mongoimport --db=or1lab --collection=iphones --type=json --username=root --password=root --authenticationDatabase=admin --file=iphones.json --jsonArray
