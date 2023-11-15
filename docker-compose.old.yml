@@ -1,5 +1,4 @@
 version: "3.8"
-
 services:
   mojMongoDB:
     image: esembera/or-labosi:lab1
@@ -12,19 +11,5 @@ services:
       - 27017:27017
     volumes:
       - ./mongodata:/data/db
-    networks:
-      - orlabnetwork
-  frontendApp:
-    image: esembera/or-labosi:lab2
-    ports:
-      - 3000:3000
-    depends_on:
-      - mojMongoDB
-    environment:
-      MONGODB_URI: mongodb://root:root@mojMongoDB:27017/or1lab?authSource=admin
-    networks:
-      - orlabnetwork
 volumes:
   mongodata:
-networks:
-  orlabnetwork:
