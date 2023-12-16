@@ -15,7 +15,7 @@ services:
     networks:
       - orlabnetwork
   frontendApp:
-    image: esembera/or-labosi:lab2
+    image: esembera/or-labosi:lab3
     ports:
       - 3000:3000
     depends_on:
