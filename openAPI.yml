@@ -1,0 +1,297 @@
+openapi: 3.0.0
+info:
+  title: Next.js iPhone API
+  description: API for managing iPhone data
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000/api
+paths:
+  /iphones:
+    get:
+      summary: Get iPhone data
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              example:
+                Producer: [{
+                  name: Apple,
+                  country: USA
+                },
+                {
+                  name: Foxconn,
+                  country: Taiwan
+                }]
+                Model: iPhone X
+                year: 2017
+                launchPrice: 999
+                baseStorage: 128
+                screenSize: 5.8
+                ram: 3 GB
+                battery: 3000 mAh
+                launchOS: iOS 11
+                chipset: Apple A11 Bionic
+                weight: 150 g
+    post:
+      summary: Insert iPhone data
+      requestBody:
+        description: iPhone data to be inserted
+        required: true
+        content:
+          application/json:
+            example:
+              Producer: [{
+                  name: Apple,
+                  country: USA
+                },
+                {
+                  name: Foxconn,
+                  country: Taiwan
+                }]
+              Model: iPhone X
+              year: 2017
+              launchPrice: 999
+              baseStorage: 128
+              screenSize: 5.8
+              ram: 3 GB
+              battery: 3000 mAh
+              launchOS: iOS 11
+              chipset: Apple A11 Bionic
+              weight: 150 g
+      responses:
+        '200':
+          description: Data inserted successfully
+          content:
+            application/json:
+              example:
+                success: Data inserted
+        '400':
+          description: Bad request - Missing required fields
+          content:
+            application/json:
+              example:
+                error: Missing required fields
+        '422':
+          description: Unprocessable Entity - Data not inserted
+          content:
+            application/json:
+              example:
+                error: Data not inserted
+  /iphone/{id}:
+    get:
+      summary: Get iPhone data by ID
+      parameters:
+        - name: id
+          in: path
+          description: ID of the iPhone
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              example:
+                Producer: [{
+                  name: Apple,
+                  country: USA
+                },
+                {
+                  name: Foxconn,
+                  country: Taiwan
+                }]
+                Model: iPhone X
+                year: 2017
+                launchPrice: 999
+                baseStorage: 128
+                screenSize: 5.8
+                ram: 3 GB
+                battery: 3000 mAh
+                launchOS: iOS 11
+                chipset: Apple A11 Bionic
+                weight: 150 g
+        '404':
+          description: Not Found - No data found
+          content:
+            application/json:
+              example:
+                error: No data found
+    delete:
+      summary: Delete iPhone data by ID
+      parameters:
+        - name: id
+          in: path
+          description: ID of the iPhone
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Data deleted successfully
+          content:
+            application/json:
+              example:
+                success: Data deleted
+        '404':
+          description: Not Found - No data found
+          content:
+            application/json:
+              example:
+                error: No data found
+    put:
+      summary: Update iPhone data by ID
+      parameters:
+        - name: id
+          in: path
+          description: ID of the iPhone
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: Updated iPhone data
+        required: true
+        content:
+          application/json:
+            example:
+                year: 2018
+      responses:
+        '200':
+          description: Data updated successfully
+          content:
+            application/json:
+              example:
+                success: Data updated
+        '400':
+          description: Bad request - Missing required fields
+          content:
+            application/json:
+              example:
+                error: Missing required fields
+        '422':
+          description: Unprocessable Entity - Data not updated
+          content:
+            application/json:
+              example:
+                error: Data not updated
+  /iphones/name:
+    get:
+      summary: Get iPhone data by name
+      parameters:
+        - name: value
+          in: query
+          description: Name of the iPhone model
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              example:
+                Producer: [{
+                  name: Apple,
+                  country: USA
+                },
+                {
+                  name: Foxconn,
+                  country: Taiwan
+                }]
+                Model: iPhone X
+                year: 2017
+                launchPrice: 999
+                baseStorage: 128
+                screenSize: 5.8
+                ram: 3 GB
+                battery: 3000 mAh
+                launchOS: iOS 11
+                chipset: Apple A11 Bionic
+                weight: 150 g
+        '404':
+          description: Not Found - No data found
+          content:
+            application/json:
+              example:
+                error: No data found
+  /iphones/storage:
+    get:
+      summary: Get iPhone data by storage
+      parameters:
+        - name: value
+          in: query
+          description: Storage of the iPhone
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              example:
+                Producer: [{
+                  name: Apple,
+                  country: USA
+                },
+                {
+                  name: Foxconn,
+                  country: Taiwan
+                }]
+                Model: iPhone X
+                year: 2017
+                launchPrice: 999
+                baseStorage: 128
+                screenSize: 5.8
+                ram: 3 GB
+                battery: 3000 mAh
+                launchOS: iOS 11
+                chipset: Apple A11 Bionic
+                weight: 150 g
+        '404':
+          description: Not Found - No data found
+          content:
+            application/json:
+              example:
+                error: No data found
+  /iphones/year:
+    get:
+      summary: Get iPhone data by launch year
+      parameters:
+        - name: value
+          in: query
+          description: Launch year of the iPhone
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              example:
+                Producer: [{
+                  name: Apple,
+                  country: USA
+                },
+                {
+                  name: Foxconn,
+                  country: Taiwan
+                }]
+                Model: iPhone X
+                year: 2017
+                launchPrice: 999
+                baseStorage: 128
+                screenSize: 5.8
+                ram: 3 GB
+                battery: 3000 mAh
+                launchOS: iOS 11
+                chipset: Apple A11 Bionic
+                weight: 150 g
+        '404':
+          description: Not Found - No data found
+          content:
+            application/json:
+              example:
+                error: No data found

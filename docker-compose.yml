@@ -14,7 +14,7 @@ services:
       - ./mongodata:/data/db
     networks:
       - orlabnetwork
-  frontendApp:
+  backend:
     image: esembera/or-labosi:lab3
     ports:
       - 3000:3000
