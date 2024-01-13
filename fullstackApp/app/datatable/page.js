@@ -136,14 +136,32 @@ export default function Datatable() {
 
   const downloadToJSON = () => {
     if (filteredDatabase !== null && filteredDatabase.length !== 0) {
-      const jsonData = JSON.stringify(filteredDatabase);
+      let jsonData = JSON.stringify(filteredDatabase);
+
+      console.log(jsonData);
+      jsonData = JSON.parse(jsonData);
+      jsonData.forEach((element) => {
+        element["@context"] = {
+          Year: "https://schema.org/yearBuilt",
+          Weight: "https://schema.org/weight",
+        };
+      });
+      jsonData = JSON.stringify(jsonData);
       const blob = new Blob([jsonData], {
         type: "text/json;charset=utf-8",
       });
       saveAs(blob, "filtered_data.json");
       return;
     }
-    const jsonData = JSON.stringify(database);
+    let jsonData = JSON.stringify(database);
+    jsonData = JSON.parse(jsonData);
+    jsonData.forEach((element) => {
+      element["@context"] = {
+        Year: "https://schema.org/yearBuilt",
+        Weight: "https://schema.org/weight",
+      };
+    });
+    jsonData = JSON.stringify(jsonData);
     const blob = new Blob([jsonData], {
       type: "text/json;charset=utf-8",
     });

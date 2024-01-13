@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useUser } from "@auth0/nextjs-auth0/client";
 import Papa from "papaparse";
 import { getDatabase } from "@/lib/mongo/db";
+import { saveAs } from "file-saver";
 
 const NavigationTrack = () => {
   const { user } = useUser();
@@ -12,14 +13,21 @@ const NavigationTrack = () => {
   const getLatestData = async () => {
     setIsLoading(true);
     await getDatabase().then((data) => {
+      const jsonData = JSON.parse(data);
+      jsonData.forEach((element) => {
+        element["@context"] = {
+          Year: "https://schema.org/yearBuilt",
+          Weight: "https://schema.org/weight",
+        };
+      });
       const csvData = Papa.unparse(data);
       const blob1 = new Blob([csvData], { type: "text/csv;charset=utf-8" });
-      saveAs(blob1, "data.csv");
-      const jsonData = JSON.stringify(data);
-      const blob2 = new Blob([jsonData], {
+      saveAs(blob1, "csv_data.csv");
+      const jsonDatawithLd = JSON.stringify(jsonData);
+      const blob2 = new Blob([jsonDatawithLd], {
         type: "text/json;charset=utf-8",
       });
-      saveAs(blob2, "data.json");
+      saveAs(blob2, "json_data.json");
       setIsLoading(false);
     });
   };
