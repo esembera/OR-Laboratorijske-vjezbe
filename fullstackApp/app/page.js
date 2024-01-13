@@ -1,23 +1,21 @@
 "use client";
-import Link from "next/link";
 import { Divider } from "@nextui-org/react";
+import { useUser } from "@auth0/nextjs-auth0/client";
+import NavigationTrack from "./components/navigationTrack";
 
 export default function Home() {
+  const { user, isLoading } = useUser();
+
+  if (isLoading)
+    return (
+      <div className="container w-full mx-auto">
+        <div className="mt-20 text-center">Loading...</div>
+      </div>
+    );
+
   return (
     <div className="container w-full mx-auto">
-      <div className="flex flex-col justify-start sm:flex-row sm:items-center sm:justify-center sm:w-full sm:overflow-x-auto items-center gap-3 py-2">
-        <div className="flex flex-row w-full justify-end items-center gap-4">
-          <Link href="/datatable">
-            <button className="btn btn-primary">Datatable</button>
-          </Link>
-          <a href="/iphones.csv" download="iphones">
-            <button className="btn btn-outline-primary">Download CSV</button>
-          </a>
-          <a href="/iphones.json" download="iphones">
-            <button className="btn btn-outline-primary">Download JSON</button>
-          </a>
-        </div>
-      </div>
+      <NavigationTrack />
       <div className="mt-10">
         <h1 className="text-4xl">Kolegij Otvoreno računarstvo</h1>
         <Divider className="my-4" />

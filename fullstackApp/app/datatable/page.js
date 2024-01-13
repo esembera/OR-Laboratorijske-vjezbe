@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import { getDatabase } from "@/lib/mongo/db";
 import Papa from "papaparse";
 import { saveAs } from "file-saver";
-import Link from "next/link";
 
 import {
   Table,
@@ -13,6 +12,7 @@ import {
   TableRow,
   TableCell,
 } from "@nextui-org/react";
+import NavigationTrack from "../components/navigationTrack";
 
 export default function Datatable() {
   const [database, setDatabase] = useState(null);
@@ -151,7 +151,8 @@ export default function Datatable() {
   };
 
   return (
-    <div>
+    <div className="container w-full mx-auto">
+      <NavigationTrack />
       <div className="flex flex-col justify-start px-4 sm:flex-row sm:items-center sm:justify-center sm:w-full sm:overflow-x-auto items-center gap-3 py-2">
         <div className="flex flex-row items-center gap-3">
           <label htmlFor="search">Pretraga</label>
@@ -218,14 +219,11 @@ export default function Datatable() {
           </button>
         </div>
         <div className="flex flex-row w-full justify-end items-center gap-4">
-          <Link href="/">
-            <button className="btn btn-primary">Home</button>
-          </Link>
           <button className="btn btn-outline-primary" onClick={downloadToCSV}>
-            Download CSV
+            Download current data to CSV
           </button>
           <button className="btn btn-outline-primary" onClick={downloadToJSON}>
-            Download JSON
+            Download current data to JSON
           </button>
         </div>
       </div>
