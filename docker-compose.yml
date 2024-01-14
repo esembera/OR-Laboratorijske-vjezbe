@@ -14,14 +14,19 @@ services:
       - ./mongodata:/data/db
     networks:
       - orlabnetwork
-  backend:
-    image: esembera/or-labosi:lab3
+  frontend:
+    image: esembera/or-labosi:lab4
     ports:
       - 3000:3000
     depends_on:
       - mojMongoDB
     environment:
-      MONGODB_URI: mongodb://root:root@mojMongoDB:27017/or1lab?authSource=admin
+      MONGODB_URI: "mongodb://root:root@mojMongoDB:27017/or1lab?authSource=admin"
+      AUTH0_SECRET: "392b57e18bb8ca6b3e11f4cb8e60972b8a65bb99ba26dbb16be5e4e153ed59cf"
+      AUTH0_BASE_URL: "http://localhost:3000"
+      AUTH0_ISSUER_BASE_URL: "https://dev-oscnftlo78hbtw5j.us.auth0.com"
+      AUTH0_CLIENT_ID: "eRn6UoyhqtpSUxycxiLC7LGhehXXmyRp"
+      AUTH0_CLIENT_SECRET: "lfNqo4zZjb2xC-PLRwCuH9L19jiGsq-AxvzTo9JT9lE4DUZF3iXwE-7Nk-tdWTAd"
     networks:
       - orlabnetwork
 volumes:
